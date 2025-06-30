@@ -1,0 +1,11 @@
+name: Hello
+
+on: push
+
+jobs: 
+  hello:
+    runs-on: ubuntu-latest  # fixed typo: run-on ➝ runs-on
+
+    steps:
+      - name: Print Hello World
+        run: echo "Hello world"  # added space between echo and the string
